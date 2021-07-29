@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+        <title>Landing Page</title>
+	        <script src="https://kit.fontawesome.com/b85cff77c0.js" crossorigin="anonymous"></script>
+	        	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" />
+                    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+                            <script type="text/javascript">
+                                 $(document).ready(function () {
+                                    swal({
+		                            title: "Attention!",
+                                    text: "We use cookies to make your experience of our websites better. By using and further navigating this website you accept this. Detailed information about the use of cookies on this website is available by clicking on more information",
+
+                                        button: "Accept  and close!",});
+                                             });
+                                                 /*Above I have used a snippet of code from a library to produce alert which says we use cookies etc.*/
+                             </script>
+                               
+	<link rel = "icon" type="image/x-icon" href = "img/favicon.ico"/>
+
+<style type="text/css">
+		body{font-family: sans-serif;
+		      font-size: 150%;
+			  color: black;
+			  background:white url("img3.jpg") no-repeat fixed center; 
+			 /*if you want an background image*/
+		        background-size:100%;
+		}
+			
+	
+		img{
+			width:100%;
+			height: auto;
+		}
+		header a{
+			display:inline-block;
+			margin:3%;
+			padding:1.5%;
+			border-radius: 10px;
+			font-size:120%;
+
+		}
+		header a:hover{
+			background:white;
+			opacity:1.0;
+		}
+		header{
+			background:turquoise;
+			opacity: 0.4;
+		}
+		
+		
+		
+		h1{display: inline-block;
+		width:33%;
+		height:auto; 
+		margin:2%;
+		padding:2%;
+			
+		}
+		nav{display: inline-block;
+		width:50%;
+		height:auto;
+		float: right;
+		margin:2%;
+		padding:2%;
+		text-align:center;
+			
+			
+		}
+		nav a{
+			text-decoration: none;
+			color:black;
+		}
+		#m1{
+			display: block;
+			height: 130px;
+			width:750px;
+			background:#FAFAD2;
+			 font-size: 165%;
+			 margin: 2%;
+			 padding:2%;
+			 transition:width 3s, height 2s , background 3s;
+			 opacity: 0.39;
+			
+
+
+		}
+		#m1:hover{
+			width:1000px;
+			height:230px;
+			background:#ffefd5;
+			opacity:1.0;
+		}
+		#m2{
+			display: block;
+			height: 170px;
+			width:250px;
+			 font-size: 170%;
+			 margin: 2%;
+			 padding:2%;
+			 background:darkgreen;
+			 opacity: 0.39;
+			 
+			transition: width 3s, background 2s;
+			text-align:center;
+			
+
+		}
+		#m2:hover{
+			width:450px;
+			background: lightgreen;
+			opacity:1.0;
+
+		}
+		#m3{
+			display: block;
+			height: 150px;
+			width:150px;
+			 font-size: 150%;
+			 margin: 2%;
+			 padding:2%;
+			 background:blue;
+			 transition: width 2s, height 2s, background 2s, transform 2s;
+			 text-align:center;
+			 border-radius: 20px;
+			 opacity: 0.39;
+			
+
+		}
+		#m3:hover{
+		
+             width: 300px;
+             height:300px;
+            background:lightblue;
+            transform:rotate(360deg);
+            opacity:1.0;
+            }
+        #m4{
+            text-align: center;
+            font-size:180%;
+            background: #ffc0cb;
+            opacity: 0.39;
+
+        }
+        #m5{
+            text-align: center;
+            font-size:140%;
+            background: #ffb6c1;
+            opacity: 0.39;
+
+        }
+        #m5:hover{
+            opacity:0.8;
+        }
+        #m6{
+            background:#7fffd4;
+            height:450px;
+            width:auto;
+            font-size:280%;
+            text-align: center;
+            margin:0%;
+            transform:margin 4s , background 4s, height 4s;
+            opacity: 0.39;
+        }
+        #m6:hover{
+            margin:10%;
+            opacity:1.0;
+
+            height:550px;
+            background:#40e0d0;
+        }
+        footer{
+            background:#1e90ff;
+            opacity: 0.39;
+        }
+        footer a{
+            text-decoration: none;
+            color:black;
+            display: inline-block;
+            ;
+            
+        }
+        footer a:hover{
+            background:white;
+            border-radius:10px;
+            opacity: 1.0;
+        }
+        #f0 a{
+            margin:2%;
+            padding:2%
+        }
+        #f1 {
+            display: inline-block;
+            width:27%;
+            margin:1%;
+            padding:1%;
+            text-align: center;
+            
+        }
+        #f2 {display: inline-block;
+            width:27%;
+            margin:1%;
+            padding:1%;
+            text-align: center;
+
+
+        }
+        #f3{
+            display: inline-block;
+            width:27%;
+            margin:1%;
+            padding:1%;
+            text-align: center;
+        }
+        #f4{
+            display:inline-block;
+            width:30%;
+
+             margin-left:6px;
+        }
+
+        #f5{
+            display:inline-block;
+            width:60%;
+            margin-left:9%;
+            
+
+
+        }
+        #f5 a{
+            margin:1%;
+            padding:1%
+        }
+                                             /*Above was all the styling or css used*/
+            
+
+
+
+</style>
+
+
+</head>
+<body>
+	 <header>
+			  <h1>Thinkservices</h1>
+				  <nav>
+					  <a href="#">Home</a>
+						  <a href="#">Signup</a>
+							  <a href="#">Login</a>
+								  <a href="#">Our Services</a>
+				  </nav>
+		  </header>
+				  <main>
+					  <div id="m1">
+						  <p>We Protect you from people like us.</p>
+					  </div>
+						  <div id="m2">
+							  <h2>Who are We?</h2>
+							  </div>
+							  <div id="m3">
+								  <p>A Startup</p>
+								  </div>
+							  
+						  
+							  <div id="m4">  
+								  <h3 >What do we do?</h3>
+								  </div>
+								  <div id="m5">
+									  <p>We are a startup that focuses primarily on cyber attacks and legit ways to find the bugs in other startup platforms and tell and help them to fix that vulnerability so that they don't suffer a loss. The best part is we aren't some experts in making our customers platform hack proof but we are a community where we bring all cyber experts , researchers, students, hackers to work legally and find a bug in our customers platforms to make internet a more safer place.</p>
+							  </div>
+								  <div id="m6">
+									  <blockquote>
+										  <q>Hackers often describe what they do as playfully creative Problem solving.</q>
+											  <p>-Heather Brooke</p>
+									  </blockquote>
+								  </div>
+				  
+				  </main>
+					  <footer>
+						  <div id="f0">
+						  <div id="f1">
+							  <h4>Products</h4>
+							  <li><a href="#">We find Bugs</a></li>
+								  <li><a href="#">Find glitches</a></li>
+						  </div>
+							  <div id="f2">
+								  <h4>Learn</h4>
+									  <li><a href="#">Ethical Hacking</a></li>
+										 <li> <a href="#">Data Analytics</a> </li>
+							  
+							  </div>
+								  <div id="f3">
+									  <h4>Get in Touch</h4>
+									  <li>
+									  <a href="#">Contact</a></li>
+									 <li>
+									  <a href="#">Community</a>
+									</li>
+								  </div>
+								</div>	  
+								  <div id="f4">
+									  <p>&copy; Thinkservices. All Rights Reserved</p>
+								  </div>
+								  <div id="f5">
+									  <a href="#">Security</a>
+									  <a href="#">Privacy Policy</a>
+									  <a href="#">Terms of use</a>
+									  <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+									  <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+									  <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+								  </div>
+					  </footer>
+	
+</body>
+</html
